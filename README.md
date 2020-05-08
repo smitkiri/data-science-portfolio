@@ -6,12 +6,13 @@ For a more visually appealing portfolio experience, visit [smitkiri.github.io](h
 
 ### Machine Learning
 - [Species Detector](https://gitlab.com/smit.kiri/species-detector): Developed a deep learning model using convolutional neural networks that classified animal/bird images to their species. Built a [website](https://species-detector.ue.r.appspot.com/) and deployed it on google cloud that allows a user to upload a single image/folder containing multiple images and get the top-3 species for each image with their probabilities.
-- [Stock Trend Prediction](https://github.com/smitkiri/stock-trend-prediction): Developed a time-series model using LSTM that predicts if the stock would go up, down or stay the same next day based on current day news and past 60 days stock data.
-- [Fashion Product Recommendation](https://github.com/smitkiri/fashion-product-recommendation): Developed a recommender system that gives similar fashion product images based on user's input image. Used T-Stochiastic Neighbor Embeddings, Principal Component Analysis, K-Means and Gaussian Mixture Models.
-- [Dengue Fever Prediction](https://github.com/smitkiri/predicting-dengue-fever): Used techniques like LSTM, ARIMA and Prophet to predict dengue fever outbreaks for two cities: San Juan and Iquitos.
-- [ML from scratch](https://github.com/smitkiri/ml-from-scratch): Developed Decision Tree and AdaBoost algorithms from scratch using python numpy.
+- [Stock Trend Prediction](https://github.com/smitkiri/stock-trend-prediction): Developed a time-series model using LSTM that predicts if the stock would go up, down or stay the same next day based on current day news and past 60 days stock data. Used keras `functional` api to combine seperate models with stock data as input and with news data as input. Tried several techniques for using text data including Bag-of-Words, TF-IDF and Glove Vector Embeddings.
+- [Fashion Product Recommendation](https://github.com/smitkiri/fashion-product-recommendation): Developed a recommender system that gives similar fashion product images based on user's input image. Used T-Stochiastic Neighbor Embeddings, Principal Component Analysis, K-Means and Gaussian Mixture Models. The dataset used for this project had about 12,000 colored images belonging to approximately 12-14 product categories.
+- [Dengue Fever Prediction](https://github.com/smitkiri/predicting-dengue-fever): Used techniques like LSTM, ARIMA and Prophet to predict dengue fever outbreaks for two cities: San Juan and Iquitos. The dataset for both cities had about 25 climate features and number of dengue cases per week for 10 years. 
+- [PyTorch Applications](https://github.com/smitkiri/pytorch-applications): Used convolutional neural netowrks to classify images (into 10 classes) in CIFAR 10 dataset using PyTorch. Implemented logistic regression using pytorch and used it for binary classification on Sonar Returns dataset. The dataset has 60 features representing sonar signals which is classified as reflected from a rock or a metal. Also applied feed-forward neural networks on this dataset using PyTorch.
+- [ML from scratch](https://github.com/smitkiri/ml-from-scratch): Developed Decision Tree and AdaBoost algorithms from scratch using python numpy. Also implemented various evaluation metrics like accuracy, precision, recall, confusion matrix and classification report.
 
-**Tools**: scikit-learn, pandas, numpy, keras, flask, google cloud
+**Tools**: scikit-learn, pytorch, pandas, numpy, keras, flask, google cloud
 
 ### Data Analysis and Vizualization
 - [Black Friday Sales](https://github.com/smitkiri/black-friday-sales): Exploratory Data Analysis of black friday sales data (data source: kaggle) and reporting interesting observations and vizualizations using python.
@@ -27,5 +28,6 @@ For a more visually appealing portfolio experience, visit [smitkiri.github.io](h
 
 - [Twitter Analysis](https://github.com/smitkiri/twitter-analysis): Developed a [website](http://twitter-analysis1.herokuapp.com/) that provides analysis of a given user's tweets by dislaying several plots. Used plotly for vizualizations, flask for web app development and deployed on Heroku.
 - [Predicting Graduate Admissions](https://github.com/smitkiri/predicting-graduate-admissions): Performing exploratory data analysis and data cleaning on USC graduate admissions data and applied machine learning models to predict factors most important for a positive admission decision.
+- [iTeach](): A Hackathon at DAIICT, Gandhinagar, India. Led a team of 4 at a Hackathon to build a project and complete various Capture the Flag (CTF) challenges using Flask, MySQL, JavaScript; Secured a place in top 10 teams overall with 2nd rank for the CTF challenges.
 
 **Tools**: scikit-learn, pandas, numpy, plotly, matplotlib, seaborn, tweepy, flask, heroku
