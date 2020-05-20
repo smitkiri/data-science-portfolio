@@ -1,5 +1,5 @@
 # Data Science Portfolio
----
+
 This website lists all the data science project's that I've worked on for academic, self-learning or hobby purposes. 
 
 For a more visually appealing portfolio experience, visit [smitkiri.github.io](https://smitkiri.github.io/)
@@ -25,9 +25,9 @@ For a more visually appealing portfolio experience, visit [smitkiri.github.io](h
 **R**: dplyr, ggplot, tidyr, rworldmap
 
 ### Micro Projects
-
+- [Urban Sound Classification](https://github.com/smitkiri/urban-sound-classification): Classified 4-second audio clips into 10 classes using PyTorch models. Performed exploratory data analysis and transformations on audio signals using `librosa` package. This was an online challenge hosted by [Analytics Vidhya](https://datahack.analyticsvidhya.com/contest/practice-problem-urban-sound-classification/#About) to classify different daily sounds such as air-conditioners, jackhammer, drilling and other different sounds found in an urban environment. 
 - [Twitter Analysis](https://github.com/smitkiri/twitter-analysis): Developed a [website](http://twitter-analysis1.herokuapp.com/) that provides analysis of a given user's tweets by dislaying several plots. Used plotly for vizualizations, flask for web app development and deployed on Heroku.
 - [Predicting Graduate Admissions](https://github.com/smitkiri/predicting-graduate-admissions): Performing exploratory data analysis and data cleaning on USC graduate admissions data and applied machine learning models to predict factors most important for a positive admission decision.
 - [iTeach](): A Hackathon at DAIICT, Gandhinagar, India. Led a team of 4 at a Hackathon to build a project and complete various Capture the Flag (CTF) challenges using Flask, MySQL, JavaScript; Secured a place in top 10 teams overall with 2nd rank for the CTF challenges.
 
-**Tools**: scikit-learn, pandas, numpy, plotly, matplotlib, seaborn, tweepy, flask, heroku
+**Tools**: scikit-learn, pytorch, librosa, pandas, numpy, plotly, matplotlib, seaborn, tweepy, flask, heroku
