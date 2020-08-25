@@ -16,6 +16,15 @@ For a more visually appealing portfolio experience, visit [smitkiri.github.io](h
 
 **Tools**: scikit-learn, pytorch, pandas, numpy, spacy, keras, flask, fastapi, google cloud
 
+### Micro Projects
+- [New York Police Action Board](https://github.com/smitkiri/nypd-misconduct-dashboard): Project for a Hackathon, [Hack for the People](https://hackforthepeople.com/). Built a dashboard and a search tool for NYPD misconduct allegations. There is a seperate dashboard for individual police officers. Also built a prediction model that would predict the time it would take for a misconduct allegation case to be resolved. Deployed the [website](https://nypab.xyz) on Google Cloud.
+- [Urban Sound Classification](https://github.com/smitkiri/urban-sound-classification): Classified 4-second audio clips into 10 classes using PyTorch models. Performed exploratory data analysis and transformations on audio signals using `librosa` package. This was an online challenge hosted by [Analytics Vidhya](https://datahack.analyticsvidhya.com/contest/practice-problem-urban-sound-classification/#About) to classify different daily sounds such as air-conditioners, jackhammer, drilling and other different sounds found in an urban environment. 
+- [Twitter Analysis](https://github.com/smitkiri/twitter-analysis): Developed a [website](http://twitter-analysis1.herokuapp.com/) that provides analysis of a given user's tweets by dislaying several plots. Used plotly for vizualizations, flask for web app development and deployed on Heroku.
+- [Predicting Graduate Admissions](https://github.com/smitkiri/predicting-graduate-admissions): Performing exploratory data analysis and data cleaning on USC graduate admissions data and applied machine learning models to predict factors most important for a positive admission decision.
+- [iTeach](): Project for a Hackathon at DAIICT, Gandhinagar, India. Led a team of 4 at a Hackathon to build a project and complete various Capture the Flag (CTF) challenges using Flask, MySQL, JavaScript; Secured a place in top 10 teams overall with 2nd rank for the CTF challenges.
+
+**Tools**: scikit-learn, pytorch, librosa, pandas, numpy, plotly, matplotlib, seaborn, tweepy, flask, heroku, google-cloud
+
 ### Data Analysis and Vizualization
 - [Black Friday Sales](https://github.com/smitkiri/black-friday-sales): Exploratory Data Analysis of black friday sales data (data source: kaggle) and reporting interesting observations and vizualizations using python.
 - [PlayStore Apps](https://github.com/smitkiri/playstore-apps): Cleaning and analyzing Google Playstore Apps data (data source: kaggle) and vizualizing interesting observations using python.
@@ -25,11 +34,3 @@ For a more visually appealing portfolio experience, visit [smitkiri.github.io](h
 
 **Python**: pandas, matplotlib, seaborn, plotly
 **R**: dplyr, ggplot, tidyr, rworldmap
-
-### Micro Projects
-- [Urban Sound Classification](https://github.com/smitkiri/urban-sound-classification): Classified 4-second audio clips into 10 classes using PyTorch models. Performed exploratory data analysis and transformations on audio signals using `librosa` package. This was an online challenge hosted by [Analytics Vidhya](https://datahack.analyticsvidhya.com/contest/practice-problem-urban-sound-classification/#About) to classify different daily sounds such as air-conditioners, jackhammer, drilling and other different sounds found in an urban environment. 
-- [Twitter Analysis](https://github.com/smitkiri/twitter-analysis): Developed a [website](http://twitter-analysis1.herokuapp.com/) that provides analysis of a given user's tweets by dislaying several plots. Used plotly for vizualizations, flask for web app development and deployed on Heroku.
-- [Predicting Graduate Admissions](https://github.com/smitkiri/predicting-graduate-admissions): Performing exploratory data analysis and data cleaning on USC graduate admissions data and applied machine learning models to predict factors most important for a positive admission decision.
-- [iTeach](): A Hackathon at DAIICT, Gandhinagar, India. Led a team of 4 at a Hackathon to build a project and complete various Capture the Flag (CTF) challenges using Flask, MySQL, JavaScript; Secured a place in top 10 teams overall with 2nd rank for the CTF challenges.
-
-**Tools**: scikit-learn, pytorch, librosa, pandas, numpy, plotly, matplotlib, seaborn, tweepy, flask, heroku
